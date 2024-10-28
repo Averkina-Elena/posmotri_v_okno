@@ -12,12 +12,12 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0;
   block-size: 100%;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
   background-color: #1b1919;
+  margin: 0;
 }
 
 h1,
@@ -249,7 +249,7 @@ ol {
 }
 
 .content__card-link:hover {
-  text-decoration: underline;
+  text-decoration: underline 1px solid #fff;
   cursor: pointer;
 }
 
